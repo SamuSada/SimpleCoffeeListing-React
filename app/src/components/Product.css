@@ -1,0 +1,88 @@
+/* Estilos para el producto */
+.product-card {
+  position: relative;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 8px;
+  width: 250px;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 0 10px 0 10px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Elevamos ligeramente el producto */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4); /* Añadimos una sombra más pronunciada */
+}
+
+.product-card img {
+  border-radius: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+/* Estilos para el cartelito "Popular" */
+.popular-label {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #F6C768;
+  color: #111315;
+  border-radius: 15px;
+  font-size: 0.625rem;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.product-name {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.product-price {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #1B1D1F;
+  background-color: #BEE3CC;
+  border-radius: 4px;
+  padding: 6px 10px;
+}
+
+.rating,
+.product-rating {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.product-rating .rating img {
+  position: relative;
+  top: 5px;
+  vertical-align: middle;
+}
+
+.product-votes {
+  color: #6F757C;
+  margin-right: auto;
+  margin-left: 2px;
+}
+
+.product-unavailable {
+  color: #ff4d4d;
+}
