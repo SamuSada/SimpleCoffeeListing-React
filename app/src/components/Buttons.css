@@ -1,6 +1,7 @@
 button {
   padding: 10px 20px;
   font-family: "DM Sans", sans-serif;
+  font-weight: bold;
   font-size: 0.875rem;
   color: #FEF7EE;
   border: none;

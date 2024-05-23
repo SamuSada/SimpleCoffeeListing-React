@@ -46,7 +46,6 @@ img {
 }
 
 /* MEDIA QUERIES */
-
 @media (max-width: 1123px) {
   .app-content {
     height: 1400px;
