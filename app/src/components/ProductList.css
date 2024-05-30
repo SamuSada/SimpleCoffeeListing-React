@@ -38,7 +38,7 @@
   border-radius: 12px;
   left: 50%;
   transform: translateX(-50%);
-  width: 75%;
+  max-width: 900px;
 }
 
 .product-list h1,
